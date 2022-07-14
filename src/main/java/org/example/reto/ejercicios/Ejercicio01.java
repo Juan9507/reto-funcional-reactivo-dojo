@@ -38,7 +38,7 @@ public class Ejercicio01 {
      * Punto b
      * saber si hay correos con dominio gmail, hotmail y outlook
      *
-     * @return
+     * @return retorna una nueva lista con el filtro
      */
     public List<Email> filterDomain() {
         List<Email> email = DataUtil.getEmailList();
@@ -54,7 +54,7 @@ public class Ejercicio01 {
      * Punto c
      * Saber si cumple con la condicion @ y el dominio correcto
      *
-     * @return
+     * @return null, ya que imprimimos por consola
      */
     public List<Object> condition() {
         Pattern pattern = Pattern.compile("[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)");

@@ -36,7 +36,7 @@ public class Ejercicio03 {
     public static void main(String[] args) {
         var ejercicio03 = new Ejercicio03();
         // ejercicio03.derivate(); TODO descomentar para la derivada
-        ejercicio03.integral();
+        //ejercicio03.integral(); TODO descomentar para la integral
 
     }
 }
