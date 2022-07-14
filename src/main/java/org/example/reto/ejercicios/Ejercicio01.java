@@ -119,10 +119,21 @@ public class Ejercicio01 {
 
     public static void main(String[] args) {
         Ejercicio01 ejercicio01 = new Ejercicio01();
-        var email = ejercicio01.sendEmail();
+
+        //System.out.println(ejercicio01.deleteDuplites()); TODO descomentar para compilar el punto A
+
+        //System.out.println(ejercicio01.filterDomain()); TODO descomentar para compilar el punto B
+
+        //ejercicio01.condition(); TODO descomentar para compilar el punto C
+
+        //ejercicio01.amountEverybodyEmail(); TODO descomentar para compilar el punto D
+
+        //ejercicio01.amountEmail(); TODO descomemnta para compilar el punto E
+
+       /*var email = ejercicio01.sendEmail(); TODO descomentar para compilar el punto final
         List<Email> emailOrigin = DataUtil.getEmailList();
         System.out.println("Lista original " + emailOrigin);
-        System.out.println("modificada " + email);
+        System.out.println("modificada " + email);*/
     }
 
 }
