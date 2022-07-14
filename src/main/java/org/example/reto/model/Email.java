@@ -5,11 +5,13 @@ import java.util.Objects;
 public class Email {
 
     private String email;
+    private String domain; // Dominio del correo
     private String send;
     private Boolean status; // Estado
 
-    public Email(String email, String send, Boolean status) {
+    public Email(String email, String domain, String send, Boolean status) {
         this.email = email;
+        this.domain = domain;
         this.send = send;
         this.status = status;
     }
@@ -18,16 +20,12 @@ public class Email {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getSend() {
         return send;
     }
 
-    public void setSend(String send) {
-        this.send = send;
+    public String getDomain() {
+        return domain;
     }
 
     public Boolean getStatus() {
@@ -40,8 +38,9 @@ public class Email {
 
     @Override
     public String toString() {
-        return "email{" +
+        return "Email{" +
                 "email='" + email + '\'' +
+                ", domain='" + domain + '\'' +
                 ", send='" + send + '\'' +
                 ", status=" + status +
                 '}';
